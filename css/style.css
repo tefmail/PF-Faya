@@ -61,7 +61,7 @@ nav ul li {
   /*display: inline-block;*/
   padding: 10px;
 }
-nav ul li a, nav ul li a.btn.dropdown-toggle {
+nav ul li a, nav ul li a.btn.dropdown-toggle, nav ul li ul.dropdown-menu.show li {
   text-decoration: none;
   color: var(--color-principal);
   font-weight: bold;
@@ -70,6 +70,9 @@ nav ul li a, nav ul li a.btn.dropdown-toggle {
 nav ul li ul.dropdown-menu.show li:hover {
   background-color: #a4c48d;
   border-radius: 0;
+}
+nav ul li a.dropdown-item.active {
+  background-color: #274e2e;
 }
 nav ul li:hover {
   background-color: var(--color-contraste);
