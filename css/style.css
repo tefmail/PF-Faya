@@ -11,7 +11,7 @@
   --color-secundario: #dfedd6;
   --color-contraste: #fefce0;
   --font-family-texto: "Source Sans 3", sans-serif;
-  --font-size-texto-titulo: 40px;
+  --font-size-texto-titulo: 38px;
   --font-size-texto-titulosecundario: 26px;
   --font-size-texto-secundario: 14px;
 }
@@ -301,6 +301,10 @@ input[type=submit]:hover {
   background-color: white;
   padding: 10px;
   border-radius: 34px 34px 34px 34px;
+}
+.tabla-temas div a {
+  text-decoration: none;
+  color: var(--color-principal);
 }
 
 .tabla-temas__generales {
