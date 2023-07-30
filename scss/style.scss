@@ -292,6 +292,20 @@ input[type=submit]:hover {
     }
 }
 
+/* ************ TABLA DE TEMAS ********************** */
+.tabla-temas div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 34px 34px 34px 34px;
+}
+.tabla-temas__generales{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+}
+
+
 /* ******** MEDIA QUERIES ******** */
 @media screen and (max-width: 650px) {
     .cabecera {
