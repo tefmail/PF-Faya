@@ -72,7 +72,7 @@ nav ul li ul.dropdown-menu.show li:hover {
   border-radius: 0;
 }
 nav ul li a.dropdown-item.active {
-  background-color: #274e2e;
+  background-color: var(--color-principal);
 }
 nav ul li:hover {
   background-color: var(--color-contraste);
@@ -297,12 +297,13 @@ input[type=submit]:hover {
 }
 
 /* ************ TABLA DE TEMAS ********************** */
-.tabla-temas div {
+.tabla-temas {
   background-color: white;
   padding: 10px;
   border-radius: 34px 34px 34px 34px;
+  margin-bottom: 30px;
 }
-.tabla-temas div a {
+.tabla-temas a {
   text-decoration: none;
   color: var(--color-principal);
 }
@@ -311,6 +312,27 @@ input[type=submit]:hover {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
+}
+
+.tabla-temas__carrousel {
+  margin: 0px;
+  padding: 20px 0px;
+}
+.tabla-temas__carrousel .diapo {
+  padding-bottom: 50px;
+}
+.tabla-temas__carrousel .carousel-indicators {
+  margin-top: 10px;
+}
+.tabla-temas__carrousel .carousel-control-prev-icon-elemento {
+  position: absolute;
+  bottom: 200px;
+  right: 100px;
+}
+.tabla-temas__carrousel .carousel-control-next-icon-elemento {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
 }
 
 /* ******** MEDIA QUERIES ******** */

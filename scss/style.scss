@@ -73,7 +73,7 @@ nav {
             }
 
             a.dropdown-item.active{
-                background-color: #274e2e;
+                background-color: var(--color-principal);
                 
             }
         }
@@ -293,21 +293,45 @@ input[type=submit]:hover {
 }
 
 /* ************ TABLA DE TEMAS ********************** */
-.tabla-temas div{
+.tabla-temas{
     background-color: white;
     padding: 10px;
     border-radius: 34px 34px 34px 34px;
+    margin-bottom: 30px;
     a{
         text-decoration: none;
         color: var(--color-principal);
     }
+
 }
 .tabla-temas__generales{
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
-
 }
+.tabla-temas__carrousel{
+    margin: 0px;
+    padding: 20px 0px;
+    
+    .diapo{
+        padding-bottom: 50px;
+    }
+    .carousel-indicators{
+        margin-top: 10px;
+    }
+    .carousel-control-prev-icon-elemento {
+        position: absolute;
+        bottom: 200px;
+        right: 100px;
+    }
+    .carousel-control-next-icon-elemento {
+        position: absolute;
+        bottom: 200px;
+        left: 100px;
+        
+    }
+}
+
 
 
 

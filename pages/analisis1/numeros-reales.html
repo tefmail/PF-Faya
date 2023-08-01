@@ -20,7 +20,7 @@
     <!-- TITULO -->
     <title>Pizarrón Verde</title>
     <!-- icono en la pestaña -->
-    <link rel="shortcut icon" href="../media/favicon.png">
+    <link rel="shortcut icon" href="../../media/favicon.png">
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <!-- -->
 
@@ -37,8 +37,8 @@
     <!-- Header -->
     <header class="cabecera">
         <!-- icono pizarron verde -->
-        <a href="../index.html">
-            <img id="top" src="../media/pizarronverde.jpg" alt="logo">
+        <a href="../../index.html">
+            <img id="top" src="../../media/pizarronverde.jpg" alt="logo">
         </a>
         <!-- Menu de navegacion -->
         <nav class="container-fluid menu_ppal">
@@ -60,8 +60,8 @@
             </div>
             <!-- Menu pagina web y tablet -->
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../../pages/nosotros.html">Nosotros</a></li>
                 <!-- Menu desplegable de asignaturas -->
                 <li>
                     <div class="dropdown">
@@ -70,7 +70,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item active" href="../pages/analisis-1.html">Analisis I</a>
+                                <a class="dropdown-item active" href="../../pages/analisis-1.html">Analisis I</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">Algebra I</a>
@@ -78,51 +78,90 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="../pages/juegos.html">Juegos</a></li>
-                <li><a href="../pages/donaciones.html">Donaciones</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../../pages/juegos.html">Juegos</a></li>
+                <li><a href="../../pages/donaciones.html">Donaciones</a></li>
+                <li><a href="../../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header> 
     <!-- **************** Fin de Header *******************-->
     <main>
-        <h1>Analisis I</h1>
+        <h1>Números reales</h1>
         
-        <section class="container tabla-temas">
-            <div class="row">
+        <section class="container">
+            <div class="row tabla-temas">
                 
                 <table class="table table-hover">
                     <thead>
                       <tr>
-                        <th scope="col">Analisis Matemático</th>
+                        <th scope="col">Index</th>
+                        <th scope="col"></th>
                         <th scope="col"></th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td scope="row">Números reales</td>
+                        <td scope="row"><a href="https://youtu.be/IUvJsfEd7c4">La recta real - Teoría</a></td>
                         <td class="text-end">
-                            <a href=""><i class="fa-solid fa-circle-chevron-right fa-xl" style="color: #274e2e;"></i></a>
+                            <a href=""><i class="fa-solid fa-play fa-xl" style="color: #274e2e;"></i></a>   
                         </td>
+                        <td>Ver</td>
                       </tr>
-                      <tr><th scope="row">Funciones</th>
-                        <td>Jacob</td>
-
+                      <tr>
+                        <td scope="row"><a href="https://youtu.be/J3wUyfssc10">La recta real - Práctica</a></td>
+                        <td class="text-end">
+                            <a href="https://youtu.be/J3wUyfssc10"><i class="fa-solid fa-play fa-xl" style="color: #274e2e;"></i></a>   
+                        </td>
+                        <td>Ver</td>
                       </tr>
-                      <tr><th scope="row">Límite y continuidad</th>
-                        <td>@twitter</td>
-                      </tr>
+                      
                     </tbody>
                 </table>
+            </div>
+
+            <div class="row tabla-temas__carrousel">
+                <div class="col ">
+
+                </div>
+                <div class="col-8">
+                    <div id="carouselExampleIndicators" class="carousel slide " data-bs-theme="dark">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="diapo">
+                            <div class="carousel-inner  text-center">
+                                <div class="carousel-item active">
+                                    <iframe class="mx-auto d-block" width="560" height="315" src="https://www.youtube.com/embed/IUvJsfEd7c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item">
+                                    <iframe class="mx-auto d-block" width="560" height="315" src="https://www.youtube.com/embed/J3wUyfssc10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item">
+                                    <iframe class="mx-auto d-block" width="560" height="315" src="https://www.youtube.com/embed/IUvJsfEd7c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev elemento" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon-elemento" aria-hidden="true"><i class="fa-solid fa-circle-left fa-2xl" style="color: #274e2e;"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon-elemento" aria-hidden="true"><i class="fa-solid fa-circle-right fa-2xl" style="color: #274e2e;"></i></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col"></div>
+             
+
             </div>
 
         </section>
 
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quisquam nobis dicta doloribus ipsam possimus
-            magnam ab omnis maiores veniam iusto molestias odio, minima tenetur facere tempore harum id consequatur?
 
-        </p>
 
 
     </main>
