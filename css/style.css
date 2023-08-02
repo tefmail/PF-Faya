@@ -17,7 +17,7 @@
 }
 
 main.container-fluid {
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 /*************** BODY ********************/
@@ -265,6 +265,12 @@ input[type=submit]:hover {
   border: none;
 }
 
+/* ************ NOSOTROS ********************** */
+.personal {
+  display: flex;
+  justify-content: center;
+}
+
 /* ************ footer ********************** */
 .footer_mine2 {
   padding-top: 20px;
@@ -284,10 +290,11 @@ input[type=submit]:hover {
 
 .author {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   border-top: var(--color-secundario) solid 2px;
-  padding-top: 10px;
+  padding: 10px 0px 10px 0px;
   margin-top: 20px;
 }
 .author p {
@@ -320,6 +327,10 @@ input[type=submit]:hover {
 }
 .tabla-temas__carrousel .diapo {
   padding-bottom: 50px;
+}
+.tabla-temas__carrousel .diapo .mivideo {
+  height: 315px;
+  width: 560px;
 }
 .tabla-temas__carrousel .carousel-indicators {
   margin-top: 10px;
@@ -433,6 +444,10 @@ input[type=submit]:hover {
   }
   section.propaganda .item_propaganda {
     padding: 15px 0px;
+  }
+  .diapo .mivideo {
+    max-height: 250px;
+    max-width: 370px;
   }
 }
 

@@ -17,7 +17,7 @@
  
 }
 main.container-fluid{
-    padding: 0px;
+    /* padding: 0px; */
 }
 /*************** BODY ********************/
 body {
@@ -258,6 +258,15 @@ input[type=submit]:hover {
     color: var(--color-contraste);
     border: none;
 }
+/* ************ NOSOTROS ********************** */
+
+    .personal{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
 
 /* ************ footer ********************** */
 .footer_mine2{
@@ -278,17 +287,16 @@ input[type=submit]:hover {
 }
 .author {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     border-top: var(--color-secundario) solid 2px;
-    padding-top: 10px;
+    padding: 10px 0px 10px 0px;
     margin-top: 20px;
     p{
         display: flex;
         justify-content: center;
         margin:auto;
-        
-
     }
 }
 
@@ -315,6 +323,10 @@ input[type=submit]:hover {
     
     .diapo{
         padding-bottom: 50px;
+        .mivideo{
+            height: 315px;
+            width: 560px;
+        }
     }
     .carousel-indicators{
         margin-top: 10px;
@@ -434,6 +446,12 @@ input[type=submit]:hover {
         border-bottom: solid 1px rgba(0, 0, 0, 0.233);
         .item_propaganda{
             padding: 15px 0px ;
+        }
+    }
+    .diapo{
+        .mivideo{
+            max-height: 250px;
+            max-width: 370px;
         }
     }
 }
