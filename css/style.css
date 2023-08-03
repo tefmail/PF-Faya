@@ -13,11 +13,11 @@
   --font-family-texto: "Source Sans 3", sans-serif;
   --font-size-texto-titulo: 38px;
   --font-size-texto-titulosecundario: 26px;
-  --font-size-texto-secundario: 14px;
+  --font-size-texto-secundario: 16px;
 }
 
 main.container-fluid {
-  /* padding: 0px; */
+  padding: 0px;
 }
 
 /*************** BODY ********************/
@@ -266,9 +266,17 @@ input[type=submit]:hover {
 }
 
 /* ************ NOSOTROS ********************** */
-.personal {
-  display: flex;
-  justify-content: center;
+.nosotros {
+  text-align: justify;
+}
+.nosotros .fotopersonal {
+  float: right;
+  margin: 0px 0px 15px 15px;
+  width: 350px;
+}
+.nosotros span {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* ************ footer ********************** */
@@ -448,6 +456,9 @@ input[type=submit]:hover {
   .diapo .mivideo {
     max-height: 250px;
     max-width: 370px;
+  }
+  .nosotros .fotopersonal {
+    max-width: 200px;
   }
 }
 
