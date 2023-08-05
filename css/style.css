@@ -108,6 +108,9 @@ label.menu,
   color: var(--color-contraste);
   padding-left: 45px;
 }
+.baner .izquierda p {
+  margin: 0;
+}
 .baner .derecha {
   height: 350px;
   display: flex;
@@ -178,6 +181,12 @@ section.beneficios .bloque img {
   font-size: var(--font-size-texto-secundario);
   font-weight: 400;
   max-width: 800px;
+}
+
+.mitexto {
+  text-decoration: none;
+  color: var(--color-principal);
+  font-weight: bold;
 }
 
 /* ************ PROPAGANDA ********************** */

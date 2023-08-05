@@ -120,6 +120,10 @@ label.menu,
             color: var(--color-contraste);
             padding-left: 45px;
         }
+
+        p{
+            margin: 0;
+        }
     }
 
     .derecha {
@@ -196,8 +200,13 @@ section.beneficios {
     font-size: var(--font-size-texto-secundario);
     font-weight: 400;
     max-width: 800px;
+    
 }
-
+.mitexto {
+        text-decoration: none;
+        color: var(--color-principal);
+        font-weight: bold;
+    }
 /* ************ PROPAGANDA ********************** */
 section.propaganda {
     margin-left: 100px;
