@@ -332,6 +332,20 @@ input[type=submit]:hover {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
+    .mitarjeta{
+        width: 20rem;
+        .card-body{
+            margin-bottom: 40px;
+            .card-text{
+                padding: 0px 10px;
+            }
+            a{
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+        
+      }
 }
 .tabla-temas__carrousel{
     margin: 0px;
@@ -369,6 +383,7 @@ input[type=submit]:hover {
         padding: 15px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         cursor: pointer;
+        
     }
 }
 

@@ -339,6 +339,19 @@ input[type=submit]:hover {
   flex-flow: wrap;
   justify-content: space-evenly;
 }
+.tabla-temas__generales .mitarjeta {
+  width: 20rem;
+}
+.tabla-temas__generales .mitarjeta .card-body {
+  margin-bottom: 40px;
+}
+.tabla-temas__generales .mitarjeta .card-body .card-text {
+  padding: 0px 10px;
+}
+.tabla-temas__generales .mitarjeta .card-body a {
+  position: absolute;
+  bottom: 20px;
+}
 
 .tabla-temas__carrousel {
   margin: 0px;
