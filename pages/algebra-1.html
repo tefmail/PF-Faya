@@ -6,19 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-    content="Contaco con los administradores de Pizarron Verde. Dejanos tus mensajes, te necesitamos para seguir creciendo.">
+    content="Documentos y videos de matemática, análisis y álgebra para niveles secundarios y universitarios.">
  
     <meta name="keywords"
     content="Pizarron Verde, Matematica, Analisis, Ejercicios Resueltos, Examenes Analisis, Algebra, Clases">
-
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+
     <!-- FUENTE ICONOS -->
     <script src="https://kit.fontawesome.com/423ce933fb.js" crossorigin="anonymous"></script>
-
-
     <!-- TITULO -->
     <title>Pizarrón Verde</title>
     <!-- icono en la pestaña -->
@@ -67,12 +65,17 @@
                 <!-- Menu desplegable de asignaturas -->
                 <li>
                     <div class="dropdown">
-                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
                         Temas
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../pages/analisis-1.html">Analisis I</a></li>
-                            <li><a class="dropdown-item" href="#">Algebra I</a></li>
+                            <li>
+                                <a class="dropdown-item " href="../pages/analisis-1.html">Analisis Matemático I
+                                </a>      
+                            </li>
+                            <li>
+                                <a class="dropdown-item active" href="../pages/algebra-1.html">Álgebra Lineal</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -83,35 +86,17 @@
         </nav>
     </header> 
     <!-- **************** Fin de Header *******************-->
-    <main class="container">
-        <!-- FORMULARIO DE CONTACTO -->
-        <section class="row mx-2">
-            <h1>Contacto</h1>
-            <!-- texto indicativo -->
-            <p>
-                Nos encantas tus preguntas y tu feedback - siempre estamos dispuestos a ayudarte !
-            </p>
-
-            <h2>Envianos un mensaje</h2>
-            <div class="form_contenedor">
-                <form>
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" name="" id="nombre" placeholder="Ingresa tu nombre">
-
-                    <label for="email">Mail:</label>
-                    <input type="email" name="" id="email" placeholder="Ingresa tu correo">
-
-                    <label for="mensaje">Su mensaje</label>
-                    <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-
-                    <div class="d-grid gap-2 col-2 mx-auto">
-                        <button type="button" class="btn btn-success boton_enviar">Enviar</button>
-                    </div>
-                </form>
+    <main>
+        <h1>Álgebra</h1>
+        
+        <section class="container tabla-temas">
+            <div class="col enconstruccion">
+                <img class="w-50 p-3" src="../media/encontruccion.jpg" alt="En Construccion">
             </div>
-        </section>
-    </main>
 
+        </section>
+
+    </main>
 
     <!-- *******************  FOOTER ************************* -->
     <footer class="container-fluid footer_mine2">

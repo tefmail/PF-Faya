@@ -255,8 +255,9 @@ input[type=submit]:hover {
 
 .boton_enviar{
     background-color: var(--color-principal);
-    color: var(--color-contraste);
+    color: var(--color-contraste); 
     border: none;
+
 }
 /* ************ NOSOTROS ********************** */
     .nosotros{
@@ -312,11 +313,20 @@ input[type=submit]:hover {
     padding: 10px;
     border-radius: 34px 34px 34px 34px;
     margin-bottom: 30px;
-    a{
+    .mitexto{
         text-decoration: none;
         color: var(--color-principal);
     }
-
+    /* a{
+        text-decoration: none;
+        color: var(--color-principal);
+    } */
+    p{
+        padding: 0px 60px;
+    }
+}
+.enconstruccion{
+    text-align: center;
 }
 .tabla-temas__generales{
     display: flex;
@@ -346,7 +356,6 @@ input[type=submit]:hover {
         position: absolute;
         bottom: 200px;
         left: 100px;
-        
     }
 }
 

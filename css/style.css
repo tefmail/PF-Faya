@@ -317,10 +317,21 @@ input[type=submit]:hover {
   padding: 10px;
   border-radius: 34px 34px 34px 34px;
   margin-bottom: 30px;
+  /* a{
+      text-decoration: none;
+      color: var(--color-principal);
+  } */
 }
-.tabla-temas a {
+.tabla-temas .mitexto {
   text-decoration: none;
   color: var(--color-principal);
+}
+.tabla-temas p {
+  padding: 0px 60px;
+}
+
+.enconstruccion {
+  text-align: center;
 }
 
 .tabla-temas__generales {
